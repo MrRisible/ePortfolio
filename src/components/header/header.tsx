@@ -7,9 +7,6 @@ export default function Header(){
     return(
 
             <div className="header">
-                <div className="header-logo">
-                    Raymond
-                </div>
                 <div>
                     <nav className="header-routes-container">
                         <a href="#">Home</a>

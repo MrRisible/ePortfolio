@@ -10,11 +10,11 @@ export const Home = () => {
             <p  className="home-typeanimation">
               <TypeAnimation
       sequence={[
-        'Programmer',
+        'Student',
         2000,
-        'Gamer',
+        'Discount',
         2000,
-        'Prodigy',
+        '10%',
         2000,
         () => {
           console.log('Sequence completed'); // Place optional callbacks anywhere in the array
@@ -27,10 +27,11 @@ export const Home = () => {
     />
               </p>
               <div className="home-introduction">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi voluptatibus laborum maxime, quam optio sapiente dolorem illum placeat illo eius itaque eveniet beatae nihil adipisci sed tempora ipsa ipsam ab?
+              Using my expertise in programming languages like Python, Java, or PHP, along with frameworks like Node.js, Next.js, or Laravel, I bring life to the server-side components of applications. I design, develop, and deploy the core logic that enables the application to handle data, perform complex operations, and interact with databases.
               </div>
             <div className="home-btn-box">
-              <button className="section-button-resume">RESUME</button>
+              <button className="section-button-resume">Hire Me</button>
+              <button className="section-button-resume">Hire Me</button>
             </div>
           </div>
           <img className="model-image" src="/images/model-imgs.png" alt="Example" />
