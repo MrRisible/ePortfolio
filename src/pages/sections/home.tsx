@@ -3,7 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 export const Home = () => {
   return (
     <>
-      <div className="home">
+      <div id="home" className="home">
         <div className="home-container">
           <div className="home-intro">
             <h1>Hi, I'm Raymond John</h1>

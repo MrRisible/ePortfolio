@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
+//home
+
 .home {
   &-container {
+    height: 100vh;
+    width: 100%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     margin-top: 7rem;
   }
@@ -37,7 +41,7 @@
   }
 }
 
-.section-button-resume{
+.section-btn-resume{
   margin-top: 2rem;
   background-color: transparent;
   border-radius: 10px;
@@ -50,11 +54,28 @@
   font-weight: 550;
 }
 
-.section-button-resume:hover{
+.section-btn-hire{
+  margin-top: 2rem;
+  background-color: #00ADB5;
+  border-radius: 10px;
+  height: 3rem;
+  width: 7rem;
+  color: #222831;
+  font-size: 1.1rem;
+  border-style: solid;
+  border-color: #00ADB5;
+  font-weight: 550;
+  &:hover{
+    background-color: #222831;
+    color: #00ADB5;
+    border-color: #00ADB5;
+  }
+}
+
+.section-btn-resume:hover{
   background-color: #00ADB5;
   color: #222831;
   border-color: #00ADB5;
-
 }
 
 .typeanimation{
@@ -71,4 +92,19 @@ h1{
 height: 500px;
 width: 540px; 
 border-radius: 50%;
+}
+
+//profile
+.profile{
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+}
+
+//learning experience
+
+.learningxp{
+  height: 100vh;
+  width: 100%;
+  background-color: white;
 }
