@@ -30,8 +30,8 @@ export const Home = () => {
               Using my expertise in programming languages like Python, Java, or PHP, along with frameworks like Node.js, Next.js, or Laravel, I bring life to the server-side components of applications. I design, develop, and deploy the core logic that enables the application to handle data, perform complex operations, and interact with databases.
               </div>
             <div className="home-btn-box">
-              <button className="section-button-resume">Hire Me</button>
-              <button className="section-button-resume">Hire Me</button>
+              <button className="section-btn-resume">Resume</button>
+              <button className="section-btn-hire">Hire Me</button>
             </div>
           </div>
           <img className="model-image" src="/images/model-imgs.png" alt="Example" />

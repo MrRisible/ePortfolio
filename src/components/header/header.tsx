@@ -10,9 +10,9 @@ export default function Header(){
                 <div>
                     <nav className="header-routes-container">
                         <a href="#">Home</a>
-                        <a href="#">About</a>
-                        <a href="#">Projects</a>
-                        <a href="#">Contacts</a>
+                        <a href="profile">Profile</a>
+                        <a href="output">Output</a>
+                        <a href="experience">Experience</a>
                         </nav>
                 </div>
             </div>
