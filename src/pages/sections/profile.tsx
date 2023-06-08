@@ -1,11 +1,9 @@
 export default function Profile() {
   return (
-
-      <div id="profile" className="profile">
-          
-            <h1 className="asdasd">asdjasbd</h1>
-         
+    <div id="profile" className="profile">
+      <div className="profile-content">
+        <h1 className="">Currently Working</h1>
       </div>
-
+    </div>
   );
 }

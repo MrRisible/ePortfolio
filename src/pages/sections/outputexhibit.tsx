@@ -1,12 +1,9 @@
-
-
-export default function outputexhibit (){
+export default function outputexhibit() {
   return (
-    <div id="output" className='output'>
-
-<div className="underwork">
-            <h1>Currently Working</h1>
-           </div>
+    <div id="output" className="output">
+      <div className="output-content">
+        <h1>Currently Working</h1>
+      </div>
     </div>
-  )
+  );
 }

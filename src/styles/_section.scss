@@ -36,6 +36,7 @@
     display: flex;
     gap: 4rem;
     justify-content: center;
+    margin-right: 5rem;
   }
 }
 
@@ -96,17 +97,25 @@ border-radius: 50%;
 .profile{
   height: 100vh;
   width: 100%;
-  background-color: white;
-  display: flex;
-  align-content: center;
-  justify-content: center;
+  &-content{
+    height: 93%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 //output
 .output{
   height: 100vh;
   width: 100%;
-  background-color: #222831;
+  &-content{
+    height: 93%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 }
 
 
@@ -115,7 +124,13 @@ border-radius: 50%;
 .learningxp{
   height: 100vh;
   width: 100%;
-  background-color: white;
+  &-content{
+    height: 93%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 }
 
 
