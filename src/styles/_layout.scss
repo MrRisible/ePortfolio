@@ -1,22 +1,23 @@
 .header {
+  background-color: rgba(57,62,70);
     padding-left: 3rem;
-    position: sticky;
+    position: fixed;
+    left: 25rem;
     height: 3rem;
-    width: 80%;
+    width: 40%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 6rem;
-    justify-content: space-between;
     border-radius: 25px;
     color: #EEEEEE;
     justify-content: center;
     &-routes-container {
       display: flex;
-      margin-right: 4rem;
+      margin-right: 3rem;
       gap: 4rem;
       font-size: 1.2rem;
       font-family:Arial, Helvetica, sans-serif;
+      background-color: transparent;
     }
     a:hover{
       color: #00ADB5;
@@ -25,6 +26,7 @@
     a{
       text-decoration: none;
       color: #EEEEEE;
+      background-color: transparent;
     }
   }
   

@@ -6,15 +6,15 @@ export const Home = () => {
       <div id="home" className="home">
         <div className="home-container">
           <div className="home-intro">
-            <h1>Hi, I'm Raymond John</h1>
+            <h1>Raymond John Managuit</h1>
             <p  className="home-typeanimation">
               <TypeAnimation
       sequence={[
-        'Student',
+        'Software Developer',
         2000,
-        'Discount',
+        'Back-end Developer',
         2000,
-        '10%',
+        'Front-end Developer',
         2000,
         () => {
           console.log('Sequence completed'); // Place optional callbacks anywhere in the array
