@@ -35,7 +35,7 @@ export const Home = () => {
               interact with databases.
             </div>
             <div className="home-btn-box">
-              <button className="section-btn-resume">Resume</button>
+              <a href="/files/Managuit_Resume.docx" download="Managuit Resume.docx"><button className="section-btn-resume">Resume</button></a>
               <button className="section-btn-hire">Hire Me</button>
             </div>
           </div>
